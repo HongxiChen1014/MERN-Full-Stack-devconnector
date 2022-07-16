@@ -57,7 +57,7 @@ router.post('/', [
             }
         };
 
-        jwt.sign(
+        jwt.sign(  // jwt.sign(payload, secretOrPrivateKey, [options, callback])
             payload,
             config.get('jwtSecret'),
             {expiresIn: 360000 },
