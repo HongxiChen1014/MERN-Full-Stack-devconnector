@@ -1,12 +1,16 @@
-import { configureStore, createSlice } from "@reduxjs/toolkit";
+import { legacy_createStore, applyMiddleware } from "redux";
+import { composeWithDevTools } from "redux-devtools-extension";
+import thunk from "redux-thunk";
 import rootReducer from "./reducers";
 
 const initialState = {};
-const reduceSlice = createSlice({
-  name: "counter",
+
+const middleware = [thunk];
+
+const store = legacy_createStore(
+  rootReducer,
   initialState,
-  reducers: rootReducer,
-});
-const store = configureStore({ reducer: reduceSlice });
+  composeWithDevTools(applyMiddleware(...middleware))
+);
 
 export default store;
