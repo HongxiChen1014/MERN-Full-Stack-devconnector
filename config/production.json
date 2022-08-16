@@ -1,6 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://hongxi:Plt123plt321_@devconnector.zx3jr6t.mongodb.net/?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken",
-  "githubClientId": "b801846058fb79beda58",
-  "githubSecret": "5acab5f2a5c30b6db5477a9047c9e12ebe3674d3"
-}
