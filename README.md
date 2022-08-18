@@ -2,11 +2,11 @@
 devconnector is a MERN Full stack social network app for developers to create profiles and chat with other developers.<br />
 Heroku address: https://daisy-dev-connect.herokuapp.com/
 
-<img src="https://github.com/HongxiChen1014/devconnector/blob/master/demoSource/Develpers.png" alt="Landing Page" width="600" height="400">
+<img src="https://github.com/HongxiChen1014/devconnector/blob/master/demoSource/Landing.png" alt="Landing Page" width="600" height="400">
 
 ### Current Features
 1. Signin and Signup for users, account deletion is supported.
-<img src="https://github.com/HongxiChen1014/devconnector/blob/master/demoSource/sign.png" alt="Landing Page" width="600" height="400">
+<img src="https://github.com/HongxiChen1014/devconnector/blob/master/demoSource/signin.png" alt="Sign Page" width="600" height="400">
 
 2. User can create their profiles and add experience/education on dashboard.
 <img src="https://github.com/HongxiChen1014/devconnector/blob/master/demoSource/dashboard.png" alt="Dashboard Page" width="600" height="400">
