@@ -67,7 +67,7 @@ const EditProfile = ({ profile: { profile, loading }, createProfile, getCurrentP
     }
 
     return (
-        <Fragment>
+        <section className="container">
             <h1 className="large text-primary">
                 Create Your Profile
             </h1>
@@ -173,7 +173,7 @@ const EditProfile = ({ profile: { profile, loading }, createProfile, getCurrentP
                     Go Back
                 </Link>
             </form>
-        </Fragment>
+        </section>
     );
 
 };

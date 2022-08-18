@@ -48,7 +48,7 @@ const CreateProfile = ({ createProfile }) => {
     }
 
     return (
-        <Fragment>
+        <section className="container">
             <h1 className="large text-primary">
                 Create Your Profile
             </h1>
@@ -154,7 +154,7 @@ const CreateProfile = ({ createProfile }) => {
                     Go Back
                 </Link>
             </form>
-        </Fragment>
+        </section>
     );
 
 };
