@@ -15,6 +15,8 @@ Heroku address: https://daisy-dev-connect.herokuapp.com/
 <img src="https://github.com/HongxiChen1014/devconnector/blob/master/demoSource/Posts.png" alt="Post Page" width="600" height="400">
 
 ### See demo videos here
+https://raw.githubusercontent.com/HongxiChen1014/devconnector/master/demoSource/login-editProfile-addExp.webm
+https://github.com/HongxiChen1014/devconnector/blob/master/demoSource/posts.webm
 
 ### Tools and Frameworks
 devconnector is an app built with the MERN stack(MongoDB, Express, React/Redux, Node.js.)
